@@ -930,9 +930,11 @@ fun FeedPostCard(
 
     Surface(
         color = MaterialTheme.colorScheme.surface,
-        shape = RoundedCornerShape(0.dp),
+        shape = RoundedCornerShape(16.dp),
+        border = BorderStroke(0.8.dp, colors.cardBorder),
         modifier = Modifier
             .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 6.dp)
             .testTag("feed_post_${post.id}")
     ) {
         Column {
