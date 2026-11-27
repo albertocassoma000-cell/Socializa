@@ -1,0 +1,6 @@
+{
+  "name": "Socializa",
+  "description": "Rede social mobile Socializa com feeds inteligentes, vídeos verticais, stories, mensagens em tempo real, marketplace, autenticação Google/Email OTP e sistema de algoritmos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

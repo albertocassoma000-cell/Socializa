@@ -1,0 +1,20 @@
+# Configuração Supabase CLI para Socializa (Third-Party Auth + Edge Functions)
+# Aplica validação criptográfica dos Firebase ID Tokens (JWKS) no PostgREST, Storage e Realtime.
+
+project_id = "meu-pais"
+
+[auth]
+enable_signup = false
+
+[auth.third_party.firebase]
+enabled = true
+project_id = "gen-lang-client-0990149874"
+
+[functions.firebase-session]
+verify_jwt = false
+
+[functions.email-otp]
+verify_jwt = false
+
+[functions.feed-ranker]
+verify_jwt = false
